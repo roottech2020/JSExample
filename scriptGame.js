@@ -4,15 +4,15 @@
 
     var rand;  */
     function setup(){
-        createCanvas(windowWidth, windowHeight);
+        createCanvas(200, 200);
         background = (0,0,0);
         //rand = random(quotes.length);
 
     }
 
    function draw(){
-       fill(255,255,255);
-       textSize(32);
-       text("test", 1/8*width, 1/2*height);
+       //fill(255,255,255);
+      // textSize(32);
+       //text("test", 1/8*width, 1/2*height);
        //text(""+quotes[rand], 1/8*width, 1/2*height);
    }
