@@ -16181,5 +16181,5 @@ let quotes = [{
    function draw(){
        fill(255,255,255);
        textSize(32);
-       text(""+quotes[rand]);
+       text(""+quotes[rand], 1/8*width, 1/2*height);
    }
